@@ -64,6 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
             RaisedButton(
               child: Text("Redirect app"),
               onPressed: () {
+                print('Yes');
                
                 // StoreRedirect.redirect(
                 //   androidAppId: "org.mozilla.firefox"
